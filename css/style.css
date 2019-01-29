@@ -900,7 +900,7 @@ select {
   overflow: auto; }
   .hero__content__inner {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     text-align: center; }
 
 /*--- CONTENT STYLING ---*/
