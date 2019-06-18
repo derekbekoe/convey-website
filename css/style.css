@@ -898,7 +898,7 @@ select {
   align-items: center;
   justify-content: center;
   min-height: calc( 100vh - 50px);
-  /* padding: calc( 92px) 0; */
+  padding: calc( 46px) 0;
   overflow: auto; }
   .hero__content__inner {
     width: 100%;
