@@ -302,7 +302,7 @@ template {
 /* Components */
 html {
   box-sizing: border-box;
-  background-color: #ffffff; }
+  background-color: #191b1f; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -428,8 +428,8 @@ button, .button {
   display: inline-block;
   padding: 6pt 20pt;
   line-height: 1.7;
-  border: 1px solid #6C63FF;
-  color: #6C63FF;
+  border: 1px solid #fff;
+  color: #fff;
   font-weight: 400;
   transition: 0.7s;
   white-space: nowrap;
@@ -444,8 +444,8 @@ button, .button {
     outline: 0; }
   @media (min-width: 992px) {
     button:hover, .button:hover {
-      border-color: #463aff;
-      color: #463aff; } }
+      border-color: #6C63FF;
+      color: #6C63FF; } }
 
 .button__primary {
   background-color: #6C63FF;
@@ -897,8 +897,8 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc( 100vh - 50px);
-  padding: calc( 46px) 0;
+  min-height: calc( 100vh - 60px);
+  padding: calc( 30px) 0;
   overflow: auto; }
   .hero__content__inner {
     width: 100%;
@@ -907,7 +907,7 @@ select {
 
 /*--- CONTENT STYLING ---*/
 .hero__title {
-  color: #1e1e1e;
+  color: #fff;
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
@@ -1082,7 +1082,7 @@ select {
     text-align: center; }
 
 .footer {
-  background-color: #ffffff;
+  background-color: #191b1f;
   /* padding: 36pt 0; */
 }
 
